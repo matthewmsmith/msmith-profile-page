@@ -15,17 +15,17 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: rgb(200, 200, 200);
 }
 a:hover {
-  color: #6633ff;
+  color: #070707;
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #222222;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -41,6 +41,7 @@ a:hover {
 }
 
 .nav .name {
+    text-transform: uppercase;
     display: block;
     margin-right: auto;
     color: white;
@@ -49,15 +50,19 @@ a:hover {
   padding: 5px 10px 10px 10px;
 }
 .nav a {
+  text-transform: uppercase;
   transition: all .5s;
 }
 .nav a:hover {
   color: white
 }
+.hi {
+  display: block;
+}
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('../images/background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -78,28 +83,28 @@ header .profile-image:hover {
 }
 .tag {
   background-color: #efefef;
-  color: black;
+  color: #5c5c5c;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #efefef;
+  color: #5c5c5c;
 }
 .card {
-  margin: 30px;
+  margin: 100px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background: #fff;
+  background: #efefef;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #000000;
 }
 
 ul.skills {
@@ -110,14 +115,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
-  color: white;
+  background: #353535;
+  color: #f8f8f8;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #121313;
 }
 
 footer {
@@ -151,12 +156,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
 a.github {
   background-image: url(images/github.svg);
 }
