@@ -67,25 +67,18 @@ a:hover {
 .hi {
   display: block;
 }
-.about {
+.about{
   font-size: 1.5em;
-  padding: 2em;
   font-weight: bold;
-  padding-top: 100px;
+  position: absolute;
+  top: 90px;
   background-color: lightgray;
-  box-shadow: 1px 5px 30px 5px rgb(0, 0, 0, .5);
-  
-}
-.about-image {
-  background: url('../images/background.jpg') no-repeat top center;
-  background-size: cover;
-  padding-bottom: 100px;
-  
+  margin: 100px;
+  padding: 1.5em;
 }
 
 
-
-header {
+.main-header {
   text-align: center;
   background: url('../images/background.jpg') no-repeat top center ;
   background-size: cover;
@@ -132,6 +125,7 @@ header .profile-image:hover {
 .card:hover {
   border-color: #000000;
 }
+
 
 ul.skills {
   padding: 0;
