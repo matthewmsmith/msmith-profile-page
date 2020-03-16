@@ -107,13 +107,14 @@ a:hover {
 }
 
 .form {
-	color: white;
-	display: block;
+margin-bottom: 40px;
+ color: white
+ 
+}
+.text-area {
+  padding-bottom: 200px;
 }
 
-.items {
-	margin: 200px;
-}
 header {
 	line-height: 1.5;
 }
