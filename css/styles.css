@@ -94,10 +94,12 @@ a:hover {
 
 .main-header {
 	text-align: center;
-	background: url('../images/background.jpg') no-repeat top center;
+ 	background: linear-gradient(0deg, #f7f5f0, transparent),
+	url('../images/background.jpg') no-repeat top center;
 	background-size: cover;
 	overflow: hidden;
 	padding: 60px;
+	
 }
 .background {
 	height: 700px;
